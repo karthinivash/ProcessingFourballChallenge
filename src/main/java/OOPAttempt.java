@@ -1,15 +1,15 @@
 import processing.core.PApplet;
 
-public class FourBallChallenge extends PApplet {
+public class OOPAttempt extends PApplet {
 
     private static final int WIDTH = 640;
     private static final int HEIGHT = 480;
     private static final int DIAMETER = 10;
     int x = 0;
     int height = HEIGHT / 5;
-    
+
     public static void main(String[] args) {
-        PApplet.main("FourBallChallenge",args);
+        PApplet.main("OOPAttempt",args);
     }
 
     @Override
